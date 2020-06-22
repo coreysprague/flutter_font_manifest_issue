@@ -1,0 +1,19 @@
+name: package_without_assets
+description: A new Flutter package project.
+version: 0.0.1
+author:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  package_with_font:
+    path: ../package_with_font
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

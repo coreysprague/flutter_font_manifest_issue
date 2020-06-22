@@ -1,0 +1,21 @@
+name: package_with_font
+description: A new Flutter package project.
+version: 0.0.1
+author:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: packages/package_with_font/fonts/OpenSans-Regular.ttf
